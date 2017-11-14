@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  text-align:center;
+  padding-top: 10px;
+}
+
+.App-intro ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 5px 0px;
+  display: inline-block;
+  width: 50%;
+}
+
+.App-intro li:first-child {
+  font: 200 18px/1.5 Helvetica, Verdana, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  background-color: #ffefb7;
+  padding: 4px 4px 4px 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.App-intro li {
+  font: 200 18px/1.5 Helvetica, Verdana, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  background-color: #ffefb7;
+  padding: 4px 4px 4px 10px;
+  text-align: left;
+  cursor: pointer;
+}
+ 
+.App-intro li:last-child {
+  font: 200 18px/1.5 Helvetica, Verdana, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 6px;
+  background-color: #ffefb7;
+  padding: 4px 4px 4px 10px;
+  text-align: left;
+  cursor: pointer;
+}
+ 
+.App-intro li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 200px;
+}
+ 
+.App-intro li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+
+.App-text{
+  width: 50%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
